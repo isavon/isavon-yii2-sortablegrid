@@ -1,0 +1,23 @@
+{
+    "name": "isavon/yii2-sortablegrid",
+    "description": "The extension for Yii2 Framework",
+    "keywords": ["yii2", "extension", "widget", "sortable", "grid", "jquery", "plugin"],
+    "type": "yii2-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ivan Savon",
+            "email": "isavon.we@gmail.com",
+            "homepage": "https://github.com/isavon/yii2-sortablegrid",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "isavon\\sortablegrid\\": "src"
+        }
+    }
+}
