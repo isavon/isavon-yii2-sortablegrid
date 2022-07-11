@@ -11,8 +11,7 @@ use yii\web\AssetBundle;
  */
 class SortableGridAsset extends AssetBundle
 {
-    public $basePath = '@webroot';
-    public $baseUrl = '@web';
+    public $sourcePath = '@isavon/sortablegrid/assets';
 
     public $js = [
         'js/jquery.sortable.gridview.js',
